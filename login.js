@@ -13,7 +13,18 @@ function signin(){
         console.assert;log(" email is inccorect.");
         document.getElementById("error-asg").innerText = "Your email is incoorect.";
 
+     if (pass==="seiya_123"){
+      console.log("Your password is correct.");
+       }else{
+         console.log("Your password is incorrect.");
+         document.getElementById("error").innerHTML = "Your password is incorrect.";
 
+
+
+
+      //Email:seiyareal37@gmail.com
+      //Password:  Seiya_123
+       }
 
 
 
